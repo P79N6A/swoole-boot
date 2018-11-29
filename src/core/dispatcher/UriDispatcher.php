@@ -15,11 +15,6 @@ use Swoole\Http\Response;
 class UriDispatcher extends AbstractDispatcher {
 
     public function handle(Request $request, Response $response) {
-
-
-
-
-
         $response->end("lalal");
     }
 

@@ -13,6 +13,7 @@
       "email": "bradykang@tencentyun.com"
     }
   ],
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "SwooleBoot\\": "src",
@@ -23,6 +24,8 @@
     }
   },
   "require": {
-    "php": ">=7.2.0"
+    "php": ">=7.2.0",
+    "apache/log4php": "2.3.0"
   }
+
 }
