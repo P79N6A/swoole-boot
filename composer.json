@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "type": "library",
+  "description": "",
+  "keywords": [
+    "swoole-boot"
+  ],
+  "license": "MIT",
+  "homepage": "http://git.code.oa.com",
+  "authors": [
+    {
+      "name": "bradykang",
+      "email": "bradykang@tencentyun.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SwooleBoot\\": "src",
+      "SwooleBoot\\Core\\": "src/core",
+      "SwooleBoot\\Core\\Dispatcher\\": "src/core/dispatcher",
+      "SwooleBoot\\Swoole\\Event\\": "src/swoole/event",
+      "SwooleBoot\\Swoole\\Server\\": "src/swoole/server"
+    }
+  },
+  "require": {
+    "php": ">=7.2.0"
+  }
+}
